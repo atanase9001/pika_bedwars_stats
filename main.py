@@ -7,6 +7,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     
     # 2. load up your custom window and show it on screen
+    
     window = MainWindow()
     window.show()
     

@@ -53,6 +53,7 @@ class PikaAPI:
 
             # 5. once the counter hits 0, everything is done. send it back to window.py
             if pending_requests == 0:
+                print(big_ass_json)
                 window_callback(big_ass_json)
 
         # 6. loop through your endpoints and fire them all at once
